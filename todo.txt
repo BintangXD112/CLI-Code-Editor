@@ -1,0 +1,51 @@
+TODO - Basic CLI Code Editor (next future update)
+===============================================
+
+1. Fitur Editing Lanjutan
+   - Hapus karakter (Backspace, Delete)
+   - Insert baris baru (Enter)
+   - Hapus baris
+   - Undo/Redo sederhana
+
+2. Navigasi & Tampilan
+   - Page Up/Page Down
+   - Home/End (awal/akhir baris)
+   - Scroll horizontal
+   - Highlight baris aktif
+   
+3. Fitur File
+   - Save As (simpan dengan nama baru)
+   - Open recent files
+   - Konfirmasi sebelum keluar jika ada perubahan
+
+4. Search & Replace
+   - Cari kata (Ctrl+F)
+   - Replace kata (Ctrl+R)
+
+5. Syntax Highlighting
+   - Highlight untuk file .c, .h, .py, .md, dsb
+
+6. Status Bar & Info
+   - Tampilkan nama file, posisi kursor, status save
+   - Tampilkan pesan error/info di status bar
+
+7. Multi-platform
+   - Porting ke Windows (menggunakan WinAPI/alternative)
+   - Deteksi terminal size secara portable
+
+8. Refactor & Modularisasi
+   - Pisahkan fitur besar ke file sendiri
+   - Tambah unit test untuk fungsi penting
+
+9. Dokumentasi
+   - Tambah contoh penggunaan di README
+   - Buat dokumentasi API internal
+
+10. Lain-lain
+   - Mouse support (jika terminal mendukung)
+   - Macro/recording sederhana
+   - Plugin system (untuk ekstensi)
+
+---
+
+Silakan tambahkan ide lain sesuai kebutuhan! 
