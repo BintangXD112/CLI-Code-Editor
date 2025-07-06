@@ -3,5 +3,6 @@
 
 void editorDrawRows();
 void editorRefreshScreen();
+void editorDrawStatusBar();
 
 #endif // SCREEN_H 
