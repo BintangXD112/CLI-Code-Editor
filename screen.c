@@ -47,10 +47,16 @@ void editorDrawRows() {
                 write(STDOUT_FILENO, "~", 1);
             }
         } else {
+            // Line numbering
+            char lnbuf[16];
+            snprintf(lnbuf, sizeof(lnbuf), "%4d ", filerow + 1);
+            write(STDOUT_FILENO, "\x1b[90m", 5); // abu-abu
+            write(STDOUT_FILENO, lnbuf, strlen(lnbuf));
+            write(STDOUT_FILENO, "\x1b[39m", 5);
             char *row = E.row[filerow].chars;
             int len = E.row[filerow].size - E.coloff;
             if (len < 0) len = 0;
-            if (len > E.screencols) len = E.screencols;
+            if (len > E.screencols - 5) len = E.screencols - 5;
             int i = 0;
             while (i < len) {
                 // Komentar C
