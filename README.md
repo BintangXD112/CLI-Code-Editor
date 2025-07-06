@@ -45,7 +45,7 @@ gcc -o basic_editor basic_editor.c util.c editor.c input.c screen.c fileio.c
 
 ## Catatan
 - Hanya berjalan di Linux/Unix (menggunakan termios, ioctl, dsb)
-- Belum ada fitur hapus karakter, baris baru, dsb (silakan extend sendiri)
+- Belum ada fitur hapus karakter, baris baru, dsb (on progress)
 
 ---
 
