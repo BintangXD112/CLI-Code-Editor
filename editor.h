@@ -25,5 +25,11 @@ struct editorConfig {
 extern struct editorConfig E;
 
 void initEditor();
+void editorInsertChar(int c);
+void editorDelChar();
+void editorInsertNewline();
+void editorUndo();
+void editorRedo();
+void editorSaveSnapshot();
 
 #endif // EDITOR_H 
